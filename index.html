@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+
+    <!-- CDN CSS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header section start -->
+<header>
+
+    <div class="user">
+        <img src="logo.gif" alt="">
+        <h3 class="name">Pratham Dhingra</h3>
+        <p class="post">Front-end Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#education">Education</a></li>
+           <li><a href="#Certifications">Certifications</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section start -->
+<section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Pratham Dhingra</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illo quasi mollitia! Odio provident deleniti voluptates enim. Praesentium vero culpa earum repellendus, iure expedita repellat a, esse asperiores reiciendis fuga exercitationem excepturi ab hic voluptatum delectus!</p>
+    <a href="#about"><button class="btn"> About <i class="fas fa-user"></i></button></a>
+</section>
+
+
+<!-- home section end -->
+
+<!-- about section start -->
+<section class="about" id="about">
+<h1 class="heading"><span>About</span>me</h1>
+<div class="row">
+    <div class="info">
+        <h3><span> Name :</span> Pratham Dhingra</h3>
+        <h3><span> Age :</span> 21</h3>
+        <h3><span> Qualification :</span> BCA </h3>
+        <h3><span> Interest :</span> Front-end Development</h3>
+        <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+    </div>
+
+    <div class="counter">
+        <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+        </div>
+        <div class="box">
+            <span>7+<span>
+            <h3>project completed</h3>
+        </div>
+        <div class="box">
+            <span>3+</span>
+            <h3>certifications</h3>
+        </div>
+    </div>
+</div>
+
+
+</section>
+<!-- about section ends -->
+
+<!-- Education secton start -->
+<section class="education" id="education">
+    <h1 class="heading">My <span>Education </span> Details </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023</span>
+            <h3>Bachelors Of Computer Aplications</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aspernatur suscipit assumenda natus. Nobis cupiditate facere nemo quaerat autem dolore.</p>
+        </div>
+        <div class="box">
+            <i class="fa-sharp fa-solid fa-book"></i>
+            <span>2020</span>
+            <h3>Commerce with Maths</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aspernatur suscipit assumenda natus. Nobis cupiditate facere nemo quaerat autem dolore.</p>
+        </div>
+        <div class="box">
+            <i class="fa-sharp fa-solid fa-book"></i>
+            <span>2018</span>
+            <h3>Higher School</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aspernatur suscipit assumenda natus. Nobis cupiditate facere nemo quaerat autem dolore.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Certifications section -->
+
+<section class="Certifications" id="Certifications">
+    <h1 class="heading">My <span>Certifications</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="c1.png" alt="https://courses.etrain.skillsnetwork.site/certificates/d86a97ed14a544a0bbcaf6821679fc19">
+        </div>
+        <div class="box">
+            <img src="c2.png" alt="">
+        </div>
+        <div class="box">
+            <img src="c3.png" alt="">
+        </div>
+    </div>
+</section>
+ 
+<!-- contact section -->
+
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact </span>me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info </h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>prathamdhingra14@gmail.com</h3>
+                <h3><i class="fas fa-phone"></i>+91-7292051557</h3>
+                <h3><i class="fas fa-phone"></i>+91-8826091659</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> GHAZIABAD, UTTAR PRADESH, 201001</h3>
+            </div>
+        </div>
+        <form action="" method="post">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+
+
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- custom js file -->
+<script src="script.js"></script>
+
+
+</body>
+</html>  

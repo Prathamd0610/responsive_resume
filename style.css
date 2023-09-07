@@ -20,7 +20,7 @@
 }
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow: auto;
 }
 html::-webkit-scrollbar{
     width:1.4rem;
@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: #111;
-    overflow: hidden;
+    overflow: auto;
     padding-left: 35rem; 
 }
 section{
@@ -70,6 +70,14 @@ section{
 }
 .heading span{
     color: var(--yellow);
+}
+#icon{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
 }
 header{
     position: fixed;
@@ -156,6 +164,9 @@ header .navbar ul li a:hover{
     color: #eee;
     padding: 1rem 0;
 }
+.home p span{
+    color: var(--yellow);
+}
 
 .about .row{
     display: flex;
@@ -192,6 +203,8 @@ header .navbar ul li a:hover{
     text-align: center;
     padding: 2rem;
     margin: 2rem;
+    cursor: pointer;
+    border-radius: 2px solid var(--yellow);
 }
 
 .about .row .counter .box span{
@@ -270,9 +283,12 @@ header .navbar ul li a:hover{
     object-fit: cover;
 }
 .Certifications .box-container .box:hover img{
-    transform:scale(1.2rem)
+    transform: scale(1.2);
 }
-
+.Certifications .box-container .box:hover img{
+    height: 24rem;
+    width: 30rem;
+}
 .contact .row{
     display: flex;
     align-items: center;
@@ -381,51 +397,6 @@ header .navbar ul li a:hover{
         font-size: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
